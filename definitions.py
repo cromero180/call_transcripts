@@ -1,2 +1,2 @@
 import os
-PROJECT ROOT = os.path.dirname(__file__)
+PROJECT_ROOT = os.path.dirname(__file__)
