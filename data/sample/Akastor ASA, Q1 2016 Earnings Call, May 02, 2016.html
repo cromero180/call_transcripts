@@ -1,0 +1,610 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Author" content="Romero, Cesar (Associated)">
+  <meta name="LastAuthor" content="Romero, Cesar (Associated)">
+  <meta name="CreationTime" content="2020-01-11T17:17:00Z">
+  <meta name="ModificationTime" content="2020-01-11T17:17:00Z">
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1671.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Times New Roman'; min-height: 15.0px}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 23.0px Arial}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 30.0px Arial}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 18.0px Arial; color: #c8102e}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px Arial; color: #c8102e}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 8.0px Arial; min-height: 9.0px}
+    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 8.0px Arial}
+    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 7.0px Arial; min-height: 7.0px}
+    p.p9 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 7.0px Arial}
+    p.p10 {margin: 0.0px 0.0px 0.0px 0.0px; font: 8.0px Arial}
+    p.p11 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 8.0px 'Times New Roman'}
+    p.p12 {margin: 0.0px 0.0px 0.0px 0.0px; font: 8.0px 'Times New Roman'; min-height: 9.0px}
+    p.p13 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: right; font: 8.0px Arial; min-height: 9.0px}
+    p.p14 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: right; font: 7.0px Arial; min-height: 7.0px}
+    p.p15 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: right; font: 7.0px Arial}
+    p.p16 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: right; font: 8.0px Arial}
+    p.p17 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: right; font: 8.0px 'Times New Roman'}
+    p.p18 {margin: 0.0px 0.0px 0.0px 0.0px; font: 25.0px Arial}
+    p.p19 {margin: 0.0px 0.0px 0.0px 0.0px; font: 25.0px 'Times New Roman'; min-height: 28.0px}
+    p.p20 {margin: 0.0px 0.0px 0.0px 0.0px; font: 9.0px Arial; color: #c8102e; min-height: 10.0px}
+    p.p21 {margin: 0.0px 0.0px 0.0px 0.0px; font: 9.0px Arial; color: #666666}
+    p.p22 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 9.0px 'Times New Roman'; color: #666666}
+    p.p23 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: right; font: 9.0px Arial; color: #666666}
+    p.p24 {margin: 0.0px 0.0px 0.0px 0.0px; font: 8.0px Verdana; min-height: 10.0px}
+    p.p25 {margin: 0.0px 0.0px 0.0px 0.0px; font: 24.0px Arial}
+    p.p26 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Arial}
+    p.p27 {margin: 0.0px 0.0px 0.0px 0.0px; font: 7.0px Arial; min-height: 7.0px}
+    p.p28 {margin: 0.0px 0.0px 0.0px 0.0px; font: 8.0px Arial; min-height: 9.0px}
+    span.s1 {font: 7.0px Arial}
+    span.s2 {color: #787878}
+    span.s3 {font: 24.0px Arial}
+    span.s4 {font: 8.0px Arial}
+    table.t1 {width: 250.0%; border-style: solid; border-width: 0.5px 0.5px 0.5px 0.5px; border-color: #bfbfbf #bfbfbf #bfbfbf #bfbfbf; border-collapse: collapse}
+    table.t2 {width: 250.0%; border-collapse: collapse}
+    table.t3 {width: 532.0px; border-collapse: collapse}
+    td.td1 {background-color: #ffffff; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #bfbfbf #bfbfbf #bfbfbf #bfbfbf; padding: 0.0px 0.0px 0.0px 5.0px}
+    td.td2 {background-color: #ffffff; border-style: solid; border-width: 0.2px 0.2px 0.2px 0.2px; border-color: #999999 #999999 #999999 #999999; padding: 0.0px 0.0px 0.0px 5.0px}
+    td.td3 {background-color: #efefef; border-style: solid; border-width: 0.2px 0.2px 0.2px 0.2px; border-color: #999999 #999999 #999999 #999999; padding: 0.0px 0.0px 0.0px 5.0px}
+    td.td4 {background-color: #ffffff; border-style: solid; border-width: 1.0px 0.2px 0.2px 0.2px; border-color: #bfbfbf #999999 #999999 #999999; padding: 0.0px 0.0px 0.0px 5.0px}
+    td.td5 {background-color: #efefef; border-style: solid; border-width: 1.0px 0.2px 0.2px 0.2px; border-color: #bfbfbf #999999 #999999 #999999; padding: 0.0px 0.0px 0.0px 5.0px}
+    td.td6 {background-color: #efefef; border-style: solid; border-width: 1.0px 1.0px 1.5px 1.0px; border-color: #bfbfbf #bfbfbf #999999 #bfbfbf; padding: 0.0px 0.0px 0.0px 5.0px}
+    td.td7 {background-color: #efefef; border-style: solid; border-width: 1.0px 1.0px 0.2px 1.0px; border-color: #bfbfbf #bfbfbf #999999 #bfbfbf; padding: 0.0px 0.0px 0.0px 5.0px}
+    td.td8 {width: 532.0px; background-color: #ffffff; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #bfbfbf #bfbfbf #bfbfbf #bfbfbf; padding: 0.0px 5.0px 0.0px 5.0px}
+    td.td9 {width: 177.3px; background-color: #ffffff; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #bfbfbf #bfbfbf #bfbfbf #bfbfbf; padding: 0.0px 5.0px 0.0px 5.0px}
+  </style>
+</head>
+<body>
+<table width="250.0%" cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="top" class="td1">
+        <p class="p1"><br></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p1"><br></p>
+<p class="p2"><b>Akastor ASA OB:AKA</b></p>
+<p class="p3"><b>FQ1 2016 Earnings Call Transcripts</b></p>
+<p class="p4"><b>Monday, May 02, 2016 7:00 AM GMT</b></p>
+<p class="p5">S&amp;P Global Market Intelligence Estimates</p>
+<table width="250.0%" cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td2">
+        <p class="p6"><b><span class="Apple-converted-space"> </span></b></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p7"><b>-FQ1 2016-</b></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p7"><b>-FQ2 2016-</b></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p7"><b>-FY 2016-</b></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p7"><b>-FY 2017-</b></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p8"><b><span class="Apple-converted-space"> </span></b></p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p9"><b>CONSENSUS</b></p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p9"><b>ACTUAL</b></p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p9"><b>SURPRISE</b></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p9"><b>CONSENSUS</b></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p9"><b>CONSENSUS</b></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p9"><b>CONSENSUS</b></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p10"><b>EPS Normalized<span class="Apple-converted-space"> </span></b></p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">(0.75)</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p11">-</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">NM</p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p7">(0.70)</p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p7">(2.44)</p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p7">(1.43)</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p10"><b>Revenue<span class="Apple-converted-space">  </span>(mm)</b></p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">3234.80</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">2558.00</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">(20.92 %)</p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p7">3024.40</p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p7">12547.48</p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p7">12957.74</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p10">Currency: NOK</p>
+<p class="p10">Consensus as of<span class="Apple-converted-space">  </span>Apr-27-2016 10:06 AM GMT</p>
+<p class="p12"><br></p>
+<p class="p12"><br></p>
+<table width="250.0%" cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td6">
+        <p class="p6"><b><span class="Apple-converted-space"> </span></b></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p6"><b><span class="Apple-converted-space"> </span></b></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p10"><b>- EPS NORMALIZED<span class="Apple-converted-space">  </span>-</b></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p13"><b><span class="Apple-converted-space"> </span></b></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td7">
+        <p class="p14"><b><span class="Apple-converted-space"> </span></b></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p15"><b>CONSENSUS</b></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p15"><b>ACTUAL</b></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p15"><b>SURPRISE</b></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td7">
+        <p class="p7"><b>FQ2 2015</b></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p16">(0.54)</p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p16">(1.03)</p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p16">NM</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td7">
+        <p class="p7"><b>FQ3 2015</b></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p16">(0.62)</p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p16">(0.83)</p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p16">NM</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td7">
+        <p class="p7"><b>FQ4 2015</b></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p16">(0.70)</p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p16">(1.27)</p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p16">NM</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td7">
+        <p class="p7"><b>FQ1 2016</b></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p16">(0.75)</p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p17">-</p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p16">NM</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p11"></p>
+<table width="250.0%" cellspacing="0" cellpadding="0" class="t2">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p18"><b>Table of Contents</b></p>
+        <p class="p19"><b></b><br></p>
+      </td>
+      <td valign="middle" class="td1">
+        <p class="p20"><b><span class="Apple-converted-space"> </span></b></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p21"><a href="%5Cl%20%220%22"><b>Call Participants</b></a></p>
+      </td>
+      <td valign="middle" class="td1">
+        <p class="p22"><b>........................................................................................................................................................</b></p>
+      </td>
+      <td valign="middle" class="td1">
+        <p class="p23"><b>3</b></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p21"><a href="%5Cl%20%221%22"><b>Presentation</b></a></p>
+      </td>
+      <td valign="middle" class="td1">
+        <p class="p22"><b>........................................................................................................................................................</b></p>
+      </td>
+      <td valign="middle" class="td1">
+        <p class="p23"><b>4</b></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p21"><a href="%5Cl%20%222%22"><b>Question and Answer</b></a></p>
+      </td>
+      <td valign="middle" class="td1">
+        <p class="p22"><b>........................................................................................................................................................</b></p>
+      </td>
+      <td valign="middle" class="td1">
+        <p class="p23"><b>9</b></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table width="532.0" cellspacing="0" cellpadding="0" class="t3">
+  <tbody>
+    <tr>
+      <td valign="top" class="td8">
+        <p class="p24"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td8">
+        <p class="p25"><b>Call Participants</b></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td9">
+        <p class="p26"><span class="s1"><span class="Apple-converted-space"> </span><br>
+</span><span class="s2"><b>EXECUTIVES</b></span><span class="s1"> <br>
+<span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span><b>Kristian Monsen Røkke</b><span class="s1"> <br>
+</span><i>Chairman of the Board &amp; Chief Investment Officer</i><span class="s1"> <br>
+<span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span><b>Leif Hejø Borge</b><span class="s1"> <br>
+</span><i>Chief Financial Officer</i><span class="s1"> <br>
+<span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span><b>Tore D. Langballe</b><span class="s1"> <br>
+</span><i>Head of Communications and Investor Relations</i><span class="s1"> <br>
+<span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span><span class="s2"><b>ANALYSTS</b></span><span class="s1"> <br>
+<span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span><b>Haakon Amundsen</b><span class="s1"> <br>
+</span><i>ABG Sundal Collier Holding ASA, Research Division</i><span class="s1"> <br>
+<span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span><b>Truls Olsen</b><span class="s1"> <br>
+</span><i>Fearnley Securities AS, Research Division</i><span class="s1"> <br>
+</span></p>
+      </td>
+      <td valign="top" class="td9">
+        <p class="p27"><br></p>
+      </td>
+      <td valign="top" class="td9">
+        <p class="p27"><br></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table width="532.0" cellspacing="0" cellpadding="0" class="t3">
+  <tbody>
+    <tr>
+      <td valign="top" class="td8">
+        <p class="p28"><br></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p26"><span class="s3"><b>Presentation</b></span><span class="s4"> <br>
+<span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span><b>Tore D. Langballe</b><span class="s4"> <br>
+</span><i>Head of Communications and Investor Relations</i><span class="s4"> <br>
+<span class="Apple-converted-space"> </span><br>
+</span>Good morning, everyone. Welcome to the presentation of the first quarter results for 2016 for Akastor. My name is Tore Langballe, Head of Corporate Communications and Investor Relations in Akastor. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>The presentation is being webcasted this morning, so for the audience present in the auditorium, kindly use the microphones provided when asking questions after the presentation. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>Emergency exits, 1 in the front, 2 at the back, please evacuate all the way up through the top, and muster just outside the main door. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>There's a cautionary statement at the back of your presentation. Please study that carefully. The presentation this morning will be given by CEO, Kristian Røkke; and CFO, Leif Borge. They will take questions after the presentation. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>So by that, Kristian, the floor is yours. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span><b>Kristian Monsen Røkke</b><span class="s4"> <br>
+</span><i>Chairman of the Board &amp; Chief Investment Officer</i><span class="s4"> <br>
+<span class="Apple-converted-space"> </span><br>
+</span>Okay. Welcome, and good morning to those of you here in Oslo, and an early good morning to those of you listening in, in the United States. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>This was a weak quarter, earnings-wise, with an EBITDA loss of NOK 12 million, but solid in terms of working capital decrease at NOK 300 million, bringing the total working capital reduction to NOK 900 million over the past 2 quarters. The EBITDA loss of NOK 12 million included special items of NOK 104 million, giving a normalized EBITDA of NOK 92 million. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>Revenue for the quarter was 44% lower than Q1 last year and 35% lower sequentially. Now while the drop in activity was largely anticipated, the decrease is, nonetheless, substantial and has resulted in sizable capacity cost and an impacted earnings. Net debt was relatively stable at just over NOK 5 billion, and our liquidity reserve remains high at NOK 2.5 billion. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>Now reviewing the performance of the portfolio companies, starting with Frontica. As previously announced, Frontica signed a 5-year agreement with Aker Solutions in the quarter, which gave a large order intake of NOK 4.8 billion for the company. The new commercial agreement with Aker Solutions is now in effect and is proceeding according to plan. Revenue for the quarter was down 18% compared to the same period last year, and the EBITDA margin was somewhat lower than historical levels at 4.1% due to some one-off projects and capacity costs. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>The number of hired-ins for Frontica's manpower business, Advantage, has been stable for the past couple of months at around 1,500 people, but at levels that are approximately 40% lower than 12 months ago. The company has done an impressive job of cost reduction in the midst of lower customer activity and has, among other things, strengthened its delivery center in Malaysia as part of these efforts. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>Now a rebound in Frontica's activity is highly dependent on a recovery amongst its e-clients, but overall, the company has made major progress in recent quarters towards becoming a stronger commercial entity and is working hard to expand its business going forward. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>For AKOFS Offshore, the quarter was relatively uneventful from an economic perspective with Santos in operation, the Wayfarer upgrade going according to plan and the Seafarer remaining idle as it was last quarter. However, we have received a number of questions related to our contract with Petrobras on Santos and Wayfarer. And although we try to avoid speaking specifically about individual contracts, it's only appropriate to provide a process update given recent developments. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>I can share with you that we are in productive dialogue with Petrobras. And although we have existing firm contracts in place, like everyone else in the industry, we are working hard to find a mutually acceptable way to assist our client in achieving their lower-cost targets. This is all we can say at this time, and we will revert with any key developments in due course. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>Fjords had another strong quarter with revenues nearly 20% above Q1 last year with a margin of 5.8%, which is higher than the 2015 average. Order intake set a record in the quarter with new orders at just over NOK 1 billion, giving a book-to-bill of 2.3x. Overall, the business continues to increase its service revenues and has a healthier project portfolio today than it has had in many years, which is encouraging. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>In terms of the market outlook for Fjords, overall, it still remains healthy, as reflected in the high order intake, but this is something we are monitoring very closely. The Middle East and Asia Pacific look promising, while the Americas continue to be challenging. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>For KOP, overall, the quarter reflects a significant drop in revenues, with a decrease of over 40% since last quarter and over 60% since Q1 2015. The order backlog has been low for quite some time, and we have done our best to communicate there's an anticipated drop, but it is nonetheless substantial. Margins held up better than we anticipated at 11%, driven by aggressive cost-cutting and solid operational performance in the quarter. We expect earnings to remain low and lower than today until order intake picks up again, which will reduce capacity cost going through the P&amp;L and raise margins from what we expect over the next few quarters. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>As previously communicated, KOP has done a good example of business improvement with Akastor's ownership. And despite challenging earnings in the quarters ahead, we believe in the long-term potential of this company. It's been mostly focused on a handful of countries in Southeast Asia, mostly Thailand, which will continue to be very important. But the company is now engaged in business development activity in nearly 30 countries. Time will tell how successful the company is in expanding its market and adding new customers, but we've upgraded the sales force and continue to optimize the product portfolio as well as the supply chain for an upswing in activity in the years ahead. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>MHWirth's revenue in the quarter was down 40% sequentially, and quarterly revenues in Q1 were down over 60% since steep revenues in Q4 of 2014. We have seen this a long time coming and have done our best to communicate our market view over the last few quarters. MHWirth has reduced direct and indirect cost substantially over several quarters, as previously communicated, with the headcount reduction now totaling 54% since January last year. But the results still reflect substantial capacity cost. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>Project activity has come down and is now less than half of what the average was in 2015 as we've delivered a number of projects, while aftermarket activity has been more stable. Fewer scheduled special periodic surveys and fewer active rigs have negatively impacted revenues by approximately 30% since last quarter, but so far, margins have been stable. And this is a large and growing part of MHWirth's business now and will be a key contributor towards earning than before as project activity is expected to remain low. So the aftermarket business will be closely managed and monitored in the face of market headwinds. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>Regarding our 7 drilling packages for Jurong in a situation with Sete Brasil, it is obviously very uncertain, particularly now that Sete's shareholders have approved to file for bankruptcy protection. As previously communicated, our contract is directly with Jurong Shipyard in Singapore, which is backed by Sembcorp Marine, a very solid company. It should also be mentioned that our contract clearly contemplates cancellations. We received payments during the quarter from Jurong, but work in the quarter was only made on the first drilling package, and we will continue to monitor this developing situation. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>Turning to the market outlook. While the oil price is up 40% since we last met and some 70% since its low early this year, the general themes we described last time are largely the same as we see it, with continued pressure on E&amp;P spending and a high degree of business uncertainty. Now it's possible to describe a scenario of oil supply balance over the next 6 to 9 months, as many already have, but from our viewpoint, even if the oil price increases substantially from today's levels, we don't think the fundamentals will change much in the short to medium term anyway. The ongoing industry reset will take time to unfold, and we have for some time adapted the lower-for-longer view in most of our portfolio of companies. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>The market for floaters, for example, has experienced around 1,000 days of consecutive utilization rate declines, and this process will likely continue for a number of years, given the magnitude of oversupply. Now we can always do more, and we will, but I'm pleased to see how much progress has been made so far in reducing cost across the portfolio. However, more and more of the conversations are centered around strategic development and grasping new opportunities in the years ahead. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>And I dare say that we're doing more than we have in a long, long time in terms of exploring new business development opportunities. In general, we're looking at more countries and new customers than we have before. We've upgraded our business development and sales force teams across the companies. We're investing in select technologies that we believe in. And we are doing our utmost to stay even closer to customers when times are tough. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>So overall, we still have cost-cutting to do. This has become more of a continuous process, but we're focusing more and more on how we create a meaningful uptick and sustainable value through this downturn and be ready for an upturn whenever that should be. So when I think big picture for Akastor, the latter part of last year was characterized by instilling a new realism throughout our companies, given a dramatic market shift, aggressively cutting costs, securing liquidity and strengthening our balance sheet, which both the real estate sale and completion of our refinancing contributed towards. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>And when I think of the quarters ahead, in addition to continuous cost management, increasingly, our time will be spent on business development, executing on new operational plans and developing long-term transaction leads. The M&amp;A market has been more talk than action recently for obvious reasons, but it's only a matter of time before that changes, and I'm confident that Akastor will be well positioned for that shift. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>So with that, I'll hand it over to Leif to go through the numbers. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span><b>Leif Hejø Borge</b><span class="s4"> <br>
+</span><i>Chief Financial Officer</i><span class="s4"> <br>
+<span class="Apple-converted-space"> </span><br>
+</span>Well, thank you, Kristian, and good morning to all of you. So you have then already seen our Q1 financial numbers were impacted by the slowdown in the market and reduced order intake during 2015. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>Revenues of NOK 2.6 billion are down 44% from last year. It's mainly MHWirth and KOP Surface Products that have reduced revenues in this quarter. The negative EBITDA of NOK 12 million includes the restructuring costs of NOK 109 million. MHWirth had some further impairments of assets in the quarter of NOK 32 million. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>The financial items of NOK 192 million includes NOK 53 million of costs related to the refinancing in the quarter. This relates both to fees for the previous facilities that have been expensed and most of the fees for the new facilities; point being that according to IFRS, you are to expense the fees upfront and its refinancing and not a totally new facility that you put in place. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>Also, financial items includes NOK 49 million of hedges not qualifying for hedging accounting. Thus, the more recurring financial items at a net interest cost of around NOK 35 million and the leasing cost of Aker of NOK 72 million. So all these numbers gave a cost or a net negative result in the first quarter of NOK 366 million. There are some more specification on the special items. As you can see, the underlying normalized EBITDA was NOK 92 million, which gives a margin of 3.6%. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>Net capital employed was reduced around NOK 500 million in the quarter to NOK 11.6 billion. The working capital level was further reduced in the quarter with NOK 300 million, while the net debt went up slightly to NOK 5.1 billion. MHWirth and AKOFS Offshore represents 80% of the asset values of Akastor. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>The refinancing of all the bank debt was closed in the quarter. To repeat from the fourth quarter presentation, one new facility of NOK 362 million was put in place and maturity in 2017. However, this facility will be gradually repaid if the working capital level is further reduced. All the facilities now have maturity in July 2019, but with a reduction of NOK 600 million in 2017. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>New thresholds for the interest cover ratio was put in place until first quarter 2017. In Q1, the interest cover ratio was around 2.3, so well above the new level of 0.7. The liquidity reserve was NOK 2.5 billion at the end of first quarter, so after the divestment of the real estate portfolio in the fourth quarter last year and the refinancing, Akastor had sufficient liquidity buffers. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>Then let's have a look at the portfolio of companies. The revenue I mentioned dropped with -- from a run rate the last quarters of around NOK 1.5 billion to NOK 922 million in the first quarter. One reason is that all work on 6 out of 7 drilling packages to Jurong has been stopped. These projects generated only around NOK 50 million of revenues in the quarter. MHWirth is continuing the commissioning of the first drilling package to Jurong, but we do not expect any further revenues on all the projects until the situation with Sete Brasil is clarified. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>By the way, these 7 drilling packages represents around NOK 4.5 billion of the total backlog of MHWirth of NOK 5.5 billion. Thus, the remaining backlog of projects is only a few hundred million Norwegian kroner. This means that MHWirth is down on the run rate that we may expect going forward, around NOK 1 billion per quarter until we start seeing some improvements in the market. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>Also, the revenues from aftermarket services was reduced quite a bit in the quarter and is down 30% from first quarter last year. However, the number of rigs with MHWirth equipment on board in operation is relatively stable. Clients are, however, postponing upgrades and causing [ph] cost as long as possible. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>The negative EBITDA of NOK 90 million includes NOK 97 million in restructuring costs and NOK 27 million negative result in the company MPO. Thus, the positive thing is that MHWirth is actually earning money on the revenue level, below NOK 1 billion, adjusting for the MPO business and one-off costs. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>With regards to the restructuring costs, these are costs of the layoffs in the first quarter as well as some further provisions for office leases, but office capacity will not be used going forward. The redundancy cost is higher than last year per employee, among others, due to the fact that there are more senior people being laid off lately. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>We expect another NOK 50 million to NOK 60 million of restructuring costs in the second quarter from activities initiated. A further 200 people have been laid off in this quarter. And all initiatives have been completed. The workforce of MHWirth will be below 2,000 persons compared with around 4,500 in the beginning of 2015, thus, we are talking about close to 60% reduction in less than 2 years. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>With regards to MPO, the loss of NOK 27 million is less than the NOK 42 million in the fourth quarter. We expect a negative result also in the second quarter, but aim for a breakeven result in the second half of the year. We are also looking into structural solutions for this business. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>As you may remember, the working capital level of MHWirth was reduced with NOK 700 million in the fourth quarter. Now in the first quarter, the working capital level was reduced with another NOK 300 million to the level of NOK 2.0 billion. We still consider this to be around NOK 500 million too high, but it will probably take 12 to 18 months to bring it down to that level. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>Moving on to AKOFS Offshore. Revenues of NOK 159 million comes from Santos as the other 2 vessels were not operations in the quarter. The conversion of Wayfarer is going according to plan, while the burn rate cold-stacked cost of Seafarer was well below $10,000 a day in the quarter. The EBITDA of NOK 38 million then is generated by the Santos vessel. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>Frontica's revenue dropped from NOK 1.1 billion in the fourth quarter to just below NOK 900 million now in the first quarter, reflecting a lower activity level of key clients, like Aker Solutions and MHWirth. The EBITDA margin was somewhat reduced to 4.1%. However, we expect a somewhat better margin going forward. Frontica had a strong order intake of NOK 4.8 billion in the quarter, which mainly comes from the 5-years contract with Aker Solutions. Remember that the former order intake included 12 months expected work; thus, the order intake, in fact, covers another 5 years of contract. Also, the order intake does not cover the manpower business due to the nature of that business. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>Fjords had revenues of NOK 463 million, somewhat up from the first quarter last year. This portfolio of company is less exposed to the oil and -- to the oil price and many of the other portfolio companies due to the fact that more of the technology is used by gas fields and that more of the business is in Middle East and Asia. This also explains the strong order intake of NOK 1.1 billion in the quarter. The EBITDA of NOK 27 million in the quarter gave a margin of around 60%. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>Moving on to KOP Surface Products. Order intake for KOP was weak throughout last year, thus we have guided on lower revenue levels going forward. This came through the numbers, in the first quarter, revenues of NOK 123 million is down 62% compared with the first quarter last year. I would say it's quite impressing that the portfolio of companies still deliver a double-digit margin with such a low-capacity utilization. This is caused by cost reductions during the year and good execution. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>Total number of employees in KOP were reduced from around 850 persons in the beginning of 2015 to around 550 people at the end of first quarter this year. The reduction in revenue is due to weak markets and that core clients are destocking, meaning that they are using equipment from inventories rather than ordering new equipment. KOP Surface is working hard to gain new customers in new regions, and hopefully, we can see recovery of the revenue level at the end of this year. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>Finally, other holdings contains the 2 businesses, Step Oiltools and First Geo. These had weak results in the first quarter with negative EBITDA of NOK 11 million. The remaining negative EBITDA mainly comes from group overhead. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span>With that, we open up for the Q&amp;A session. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span><b>Tore D. Langballe</b><span class="s4"> <br>
+</span><i>Head of Communications and Investor Relations</i>Okay, then we're ready to take a couple of questions from the audience here. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+</span></p>
+<p class="p26"><span class="s3"><b>Question and Answer</b></span><span class="s4"> <br>
+<span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span><b>Tore D. Langballe</b><span class="s4"> <br>
+</span><i>Head of Communications and Investor Relations</i><span class="s4"> <br>
+<span class="Apple-converted-space"> </span><br>
+</span>Any volunteers to ask the first question? <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span><b>Haakon Amundsen</b><span class="s4"> <br>
+</span><i>ABG Sundal Collier Holding ASA, Research Division</i><span class="s4"> <br>
+<span class="Apple-converted-space"> </span><br>
+</span>It's Haakon Amundsen, ABG. A couple of questions. Can you just -- you talked about MHWirth and NOK 1 billion run rate in revenues, if you exclude the Sete Brasil work. Should we expect then that if you exclude the Sete Brasil work, you will be breakeven or slightly positive on the current cost base? Is that fair to assume? <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span><b>Leif Hejø Borge</b><span class="s4"> <br>
+</span><i>Chief Financial Officer</i><span class="s4"> <br>
+<span class="Apple-converted-space"> </span><br>
+</span>Well, in fact, MHWirth delivered a positive EBITDA of some NOK 35 million, if you adjust for MPO and the restructuring costs on NOK 922 million. And as we can see from the numbers, the lesser revenues from the aftermarket business represents just ahead of NOK 500 million. That business in itself generated a positive EBITDA of more than NOK 100 million in the quarter, which, of course, means that MHWirth is losing money on the product part of the business. Still cutting some cost, but with a positive result adjusted for MPO and restructuring in the first quarter, of course, we expect to earn money in MHWirth on that run rate level going forward. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span><b>Haakon Amundsen</b><span class="s4"> <br>
+</span><i>ABG Sundal Collier Holding ASA, Research Division</i><span class="s4"> <br>
+<span class="Apple-converted-space"> </span><br>
+</span>Okay. And on Frontica, there -- you said that the margins could come slightly up, but is the current revenue run rate reflective of the current market, so that's going to be stable the next few quarters? <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span><b>Leif Hejø Borge</b><span class="s4"> <br>
+</span><i>Chief Financial Officer</i><span class="s4"> <br>
+<span class="Apple-converted-space"> </span><br>
+</span>I mean, the revenue of Frontica will, of course, reflect the activity level of the clients. MHWirth is still reducing the activity levels on it in terms of number of people in the company. And Aker Solutions have also announced some reductions. So we hope to see this flatten out, but it's, of course, totally dependent on what happens with the clients going forward. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span><b>Haakon Amundsen</b><span class="s4"> <br>
+</span><i>ABG Sundal Collier Holding ASA, Research Division</i><span class="s4"> <br>
+<span class="Apple-converted-space"> </span><br>
+</span>Okay. Just a final one from me. You mentioned the Petrobras discussions. Do you expect to be able to renegotiate the contract with Ocean Yield on the lease if you were to change the terms with Petrobras? <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span><b>Kristian Monsen Røkke</b><span class="s4"> <br>
+</span><i>Chairman of the Board &amp; Chief Investment Officer</i><span class="s4"> <br>
+<span class="Apple-converted-space"> </span><br>
+</span>From an investor communications standpoint, I wish I could say more, but this is an ongoing development situation. So what I said previously is really all we can say on the AKOFS situation, discussions we have with different stakeholders. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span><b>Tore D. Langballe</b><span class="s4"> <br>
+</span><i>Head of Communications and Investor Relations</i><span class="s4"> <br>
+<span class="Apple-converted-space"> </span><br>
+</span>Are there any further questions? Yes? <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span><b>Truls Olsen</b><span class="s4"> <br>
+</span><i>Fearnley Securities AS, Research Division</i><span class="s4"> <br>
+<span class="Apple-converted-space"> </span><br>
+</span>Truls Olsen, Fearnley Securities. Two questions, really. One, the book value of MPO. And secondly, just on the order intake of Frontica, you announced 5 years 1 to 1.25, I think, and you announced the order intake of 4.8. Could you just explain how those numbers match up? <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span><b>Leif Hejø Borge</b><span class="s4"> <br>
+</span><i>Chief Financial Officer</i><span class="s4"> <br>
+<span class="Apple-converted-space"> </span><br>
+</span>Well, as I said in my presentation, you have to remember that previously, 12 months of revenue had been in the backlog. Now -- so signing a 5-years contract gives you 4 years additional backlog. So what Frontica had taken in is the low level in that range, around NOK 1 billion annual revenue, but for 4 years and not 5 years. Your first question was? <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span><b>Truls Olsen</b><span class="s4"> <br>
+</span><i>Fearnley Securities AS, Research Division</i><span class="s4"> <br>
+<span class="Apple-converted-space"> </span><br>
+</span>MPO. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span><b>Leif Hejø Borge</b><span class="s4"> <br>
+</span><i>Chief Financial Officer</i><span class="s4"> <br>
+<span class="Apple-converted-space"> </span><br>
+</span>MPO book value is around USD 50 million. <br>
+<span class="s4"><span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+</span><b>Tore D. Langballe</b><span class="s4"> <br>
+</span><i>Head of Communications and Investor Relations</i>Okay. Do we have more questions? It all seems to be clear. Okay, then we thank you all for joining us this morning, and we wish you all a nice day. Thank you. <br>
+<span class="s4">Copyright © 2019 by S&amp;P Global Market Intelligence, a division of S&amp;P Global Inc. All rights reserved. <br>
+<span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+These materials have been prepared solely for information purposes based upon information generally available to the public and from sources believed to be reliable. No content (including index data, ratings, credit-related analyses and data, research, model, software or other application or output therefrom) or any part thereof (Content) may be modified, reverse engineered, reproduced or distributed in any form by any means, or stored in a database or retrieval system, without the prior written permission of S&amp;P Global Market Intelligence or its affiliates (collectively, S&amp;P Global). The Content shall not be used for any unlawful or unauthorized purposes. S&amp;P Global and any third-party providers, (collectively S&amp;P Global Parties) do not guarantee the accuracy, completeness, timeliness or availability of the Content. S&amp;P Global Parties are not responsible for any errors or omissions, regardless of the cause, for the results obtained from the use of the Content. THE CONTENT IS PROVIDED ON "AS IS" BASIS. S&amp;P GLOBAL PARTIES DISCLAIM ANY AND ALL EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, ANY WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR USE, FREEDOM FROM BUGS, SOFTWARE ERRORS OR DEFECTS, THAT THE CONTENT'S FUNCTIONING WILL BE UNINTERRUPTED OR THAT THE CONTENT WILL OPERATE WITH ANY SOFTWARE OR HARDWARE CONFIGURATION. In no event shall S&amp;P Global Parties be liable to any party for any direct, indirect, incidental, exemplary, compensatory, punitive, special or consequential damages, costs, expenses, legal fees, or losses (including, without limitation, lost income or lost profits and opportunity costs or losses caused by negligence) in connection with any use of the Content even if advised of the possibility of such damages. S&amp;P Global Market Intelligence's opinions, quotes and credit-related and other analyses are statements of opinion as of the date they are expressed and not statements of fact or recommendations to purchase, hold, or sell any securities or to make any investment decisions, and do not address the suitability of any security. S&amp;P Global Market Intelligence may provide index data. Direct investment in an index is not possible. Exposure to an asset class represented by an index is available through investable instruments based on that index. S&amp;P Global Market Intelligence assumes no obligation to update the Content following publication in any form or format. The Content should not be relied on and is not a substitute for the skill, judgment and experience of the user, its management, employees, advisors and/or clients when making investment and other business decisions. S&amp;P Global Market Intelligence does not act as a fiduciary or an investment advisor except where registered as such. S&amp;P Global keeps certain activities of its divisions separate from each other in order to preserve the independence and objectivity of their respective activities. As a result, certain divisions of S&amp;P Global may have information that is not available to other S&amp;P Global divisions. S&amp;P Global has established policies and procedures to maintain the confidentiality of certain nonpublic information received in connection with each analytical process. <br>
+<span class="Apple-converted-space"> </span><br>
+<span class="Apple-converted-space"> </span><br>
+S&amp;P Global may receive compensation for its ratings and certain analyses, normally from issuers or underwriters of securities or from obligors. S&amp;P Global reserves the right to disseminate its opinions and analyses. S&amp;P Global's public ratings and analyses are made available on its Web sites, www.standardandpoors.com<span class="Apple-converted-space">  </span>(free of charge), and www.ratingsdirect.com<span class="Apple-converted-space">  </span>and www.globalcreditportal.com (subscription), and may be distributed through other means, including via S&amp;P Global publications and third-party redistributors. Additional information about our ratings fees is available at www.standardandpoors.com/usratingsfees. <br>
+© 2019 S&amp;P Global Market Intelligence. <br>
+</span></p>
+</body>
+</html>
