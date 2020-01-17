@@ -7,7 +7,7 @@ import PROJECT_ROOT
 
 
 directory = os.path.join(PROJECT_ROOT, "data/sample/")
-logging.basicConfig(filename = directory + 'pipeline/log/transcripts_pipeline.log',
+logging.basicConfig(filename = directory + "log/transcripts_pipeline.log"),
                     filemode = 'a',
                     format   = '%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     datefmt  = '%Y-%m-%d %H:%M:%S',
