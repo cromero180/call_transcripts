@@ -1,1 +1,1 @@
-from .ingestion import rtf_to_html
+from .ingestion import Ingest
