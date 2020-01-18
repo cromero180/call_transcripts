@@ -1,8 +1,8 @@
 import re
 
-class extract:
-    
-    def get_section(text, sec_tag):
+class Extract:
+
+    def get_section(self, text, sec_tag):
         """Stratify table of contents into list of chapters 
         by extracted hyperlinks"""
 
@@ -30,13 +30,12 @@ class extract:
         return chapters[s-1]    
 
 
-    def get_headers(text,name_tag):
+    def get_headers(self, text, name_tag):
         headers = re.findall(name_tag, text, re.DOTALL)
         return headers
 
 
-    def get_names_roles(headers,role_types,
-                             secs):
+    def get_names_roles(self, headers, role_types, secs):
         roles = []
         names = []
         role = ''
@@ -51,7 +50,7 @@ class extract:
         return names, roles
 
 
-    def get_titles(text,names,title_tag):
+    def get_titles(self, text, names, title_tag):
         titles = []
         for i in range(len(names)):
             if i == len(names) - 1:
@@ -71,7 +70,7 @@ class extract:
         return titles
 
 
-    def get_presentations(text,names,name_tag,last_name_tag,last_section):
+    def get_presentations(self, text, names, name_tag, last_name_tag, last_section):
         comments = []
         for i in range(len(names)):
             if i == len(names) - 1:
